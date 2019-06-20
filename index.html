@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+	<meta charset="UTF-8">
+	<title>Lecteur Vidéo</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header>
+		<a href="../../index.html">Retour</a>
+		<h1>Video Player JS</h1>
+	</header>
+	<div class="container">
+		<div class="playerVid">
+			<video src="vid/GoT_speedPainting.mp4"></video>
+			<div class="controls">
+				<div class="player-bar">
+					<div class="progress-bar"></div>
+				</div>
+				<div class="buttons">
+					<button id="play-pause"></button>
+					<button id="mute"></button>
+					<input type="range" id="volume-bar" name="volume-bar" min="0" max="100" value="50" step="1">
+					<button id="full-width"></button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="js/main.js"></script>
+</body>
+</html>
